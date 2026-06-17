@@ -1,0 +1,39 @@
+name: Actualizar racha
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # todos los días ~03:17 UTC
+  workflow_dispatch: # permite ejecutarlo a mano desde la pestaña Actions
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generar racha.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.STREAK_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: node scripts/generate-streak.mjs
+
+      - name: Commitear si cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add racha.svg
+          if git diff --staged --quiet; then
+            echo "Sin cambios en racha.svg"
+          else
+            git commit -m "chore: actualizar racha [skip ci]"
+            git push
+          fi
