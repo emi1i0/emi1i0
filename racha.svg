@@ -32,7 +32,7 @@
      <line x1="328" y1="46" x2="328" y2="182" stroke="#ffffff" stroke-width="1"/>
 
   <!-- Columna 1: total -->
-  <text class="num" x="88" y="100" font-size="34" text-anchor="middle">122</text>
+  <text class="num" x="88" y="100" font-size="34" text-anchor="middle">145</text>
   <text class="lbl" x="88" y="130" font-size="12" text-anchor="middle">Contribuciones</text>
   <text class="lbl" x="88" y="146" font-size="12" text-anchor="middle">totales</text>
 
