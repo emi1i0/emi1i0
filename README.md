@@ -1,26 +1,15 @@
-<h1 align="center">¡Hola! 👋 Soy Emilio</h1>
+# Emilio Rehwald
 
-<p align="center">
-  <em>Experimentando con la IA como copiloto.</em>
-</p>
+Desarrollo software con Python y TypeScript, con foco en herramientas construidas sobre modelos de lenguaje.
 
-<p align="center">
-  <img src="./ia-enjoyer.svg" alt="MINERO DE PROMPTS" width="600" />
-</p>
+## Proyectos
 
-<p align="center">
-  <img src="./racha.svg" alt="Racha de contribuciones" width="551" />
-</p>
+| Proyecto | Descripción |
+| --- | --- |
+| [juegachos.com](https://www.juegachos.com/) | Proyecto colaborativo en curso, abierto a contribuciones. |
+| [domain-machine](https://github.com/emi1i0/domain-machine) | Plugin de Claude Code que propone nombres, verifica disponibilidad real de dominios (RDAP/WHOIS) y entrega un informe priorizado. |
+| [llmEZ](https://github.com/emi1i0/llmEZ) | App de escritorio en Python/Tkinter para experimentar con LLMs locales en Ollama, con monitor de CPU, RAM y GPU en tiempo real. |
 
-<h3 align="center">🚧 Proyecto en curso</h3>
+## Contacto
 
-<p align="center">
-  <a href="https://www.juegachos.com/">
-    <img src="https://raw.githubusercontent.com/Facu-Basualdo/Facu-Basualdo/main/juegachos.png" alt="Juegachos" width="250" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.juegachos.com/"><strong>juegachos.com</strong></a><br/>
-  <em>join & contribute</em>
-</p>
+[github.com/emi1i0](https://github.com/emi1i0)
