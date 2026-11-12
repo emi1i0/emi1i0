@@ -1,6 +1,6 @@
 # Emilio Rehwald
 
-Desarrollo software con Python y TypeScript, con foco en herramientas construidas sobre modelos de lenguaje.
+(NO) Desarrollo software con Python y TypeScript, con foco en herramientas construidas sobre modelos de lenguaje porque NO me gusta programar.
 
 ## Proyectos
 
